@@ -1,0 +1,23 @@
+{
+  "name": "pretty-google",
+  "version": "1.0.0",
+  "description": "A CLI tool for browsing google results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-quill/pretty-google.git"
+  },
+  "keywords": [
+    "google",
+    "cli"
+  ],
+  "author": "the-quill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-quill/pretty-google/issues"
+  },
+  "homepage": "https://github.com/the-quill/pretty-google#readme"
+}
