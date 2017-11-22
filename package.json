@@ -20,6 +20,9 @@
     "url": "https://github.com/the-quill/pretty-google/issues"
   },
   "homepage": "https://github.com/the-quill/pretty-google#readme",
+  "bin": {
+    "google": "bin/google.js"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-syntax-async-functions": "^6.13.0",
