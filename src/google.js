@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-require('babel-polyfill')
-
 const puppeteer = require('puppeteer')
 const { terminal } = require('terminal-kit')
 const opn = require('opn')
