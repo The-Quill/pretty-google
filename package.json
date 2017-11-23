@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/the-quill/pretty-google#readme",
   "bin": {
-    "google": "bin/google.js"
+    "google": "bin/google.js",
+    "lucky": "bin/lucky.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
