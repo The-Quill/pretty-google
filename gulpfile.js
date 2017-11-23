@@ -5,7 +5,7 @@ const runSequence = require('run-sequence')
 let session = null
 
 gulp.task('babel', () => gulp
-    .src(['src/google.js'])
+    .src(['src/*.js'])
     .pipe(babel({
         presets: [
             'es2015'
