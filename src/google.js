@@ -6,7 +6,8 @@ const opn = require('opn')
 
 let args = process.argv.slice(2)
 if (args.length === 0){
-  throw new Error('No File Provided')
+  console.error('No Search Terms Provided')
+  process.exit(1)
 }
 const term = args.join(' ').replace(/ /g, '%20')
 const icon = `https://www.google.com.au/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png`
